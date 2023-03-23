@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'EnglandDiscs'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_48FF8E7BAA7F48D78D2AA69670C8A180 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F9E635FFA6594D8F9199C8550A419801 }}
           package: .
