@@ -1,6 +1,7 @@
 <?php
 require_once('protected/DB.php');
 require_once('protected/functions.inc.php');
+include_once('navbar.php');
 
 $database = new DB;
 $items = $database->getCartContent();
@@ -24,7 +25,6 @@ $total = $totalPDO->fetch();
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <?php include_once('navbar.php');?>
         <!-- Section-->
         <section class="h-100" style="background-color: #eee;">
             <div class="container h-100 py-5">

@@ -3,4 +3,5 @@
     $database = new DB;
     $item = $database->addToCart($_POST['discID']);
     header('Location: index.php');
+    exit();
 ?>
