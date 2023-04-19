@@ -1,5 +1,5 @@
 <?php 
-// require_once('protected/config.inc.php');
+require_once('protected/config.inc.php');
 class DB{
 
 
