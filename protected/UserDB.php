@@ -43,7 +43,7 @@ class UserDB{
                 $statement = self::$connection->prepare($sql);
 
                 $statement->bindParam(':firstName', $firstName);
-                $statement->bindParam(':lastNamme', $lastName);
+                $statement->bindParam(':lastName', $lastName);
                 $statement->bindParam(':email', $email);
 
                 $statement->execute();
